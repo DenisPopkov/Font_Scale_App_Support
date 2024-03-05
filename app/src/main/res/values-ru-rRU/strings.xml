@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Font_scale</string>
+    <string name="label">Подписка на KLU Mind</string>
+    <string name="label_description">Выберите тариф. Средства спишутся сразу после подтверждения оплаты. Следующее списание — в начале каждого нового расчетного периода. Подписками KLU можно управлять через меню профиля App Store.</string>
+    <string name="subscription_price">%s ₽</string>
+    <plurals name="month">
+        <item quantity="one" tools:ignore="ImpliedQuantity">месяц</item>
+        <item quantity="few">%s месяца</item>
+        <item quantity="many">%s месяцев</item>
+        <item quantity="other">%s месяцев</item>
+    </plurals>
+    <string name="popular_label">Популярный</string>
+    <plurals name="money_withdraw">
+        <item quantity="one" tools:ignore="ImpliedQuantity">Средства списываются каждый месяц</item>
+        <item quantity="few">Средства списываются каждые %s месяца</item>
+        <item quantity="many">Средства списываются каждые %s месяцев</item>
+        <item quantity="other">Средства списываются каждые %s месяцев</item>
+    </plurals>
+    <string name="subscription_description_first_point">Полный доступ ко всем опросам</string>
+    <string name="subscription_description_second_point">Расшифровка результатов, личные рекоммендации</string>
+    <string name="subscription_description_third_point">История и динамика результатов</string>
+    <string name="decline_subscription">Вы можете отменить подписку в любой момент в апп-стор.\nОформляя подписку, вы соглашаетесь с</string>
+    <string name="decline_subscription_description_first">Правилами использования</string>
+    <string name="decline_subscription_and">и</string>
+    <string name="decline_subscription_description_second">Политикой конфиденциальности</string>
+    <string name="subscribe_button">Оформить</string>
+
+    <string name="xml">XML</string>
+    <string name="compose">Compose</string>
+</resources>

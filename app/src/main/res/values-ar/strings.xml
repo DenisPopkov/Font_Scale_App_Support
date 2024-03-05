@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Font_scale</string>
+    <string name="label">اشترك في KLU العقل</string>
+    <string name="label_description">حدد التعريفة. سيتم خصم الأموال مباشرة بعد تأكيد الدفع. ويتم الشطب التالي في بداية كل فترة فوترة جديدة. يمكن إدارة اشتراكات KLU من خلال قائمة ملف تعريف متجر التطبيقات.</string>
+    <string name="subscription_price">%s ₽</string>
+    <plurals name="month">
+        <item quantity="one">شهر</item>
+        <item quantity="two">%s أشهر</item>
+        <item quantity="few">%s أشهر</item>
+        <item quantity="many">%s اشهر</item>
+        <item quantity="other">%s اشهر</item>
+        <item quantity="zero">%s اشهر</item>
+    </plurals>
+    <string name="popular_label">شائع</string>
+    <plurals name="money_withdraw">
+        <item quantity="one">يتم خصم الأموال كل شهر</item>
+        <item quantity="two">يتم خصم الأموال كل %s أشهر</item>
+        <item quantity="few">يتم خصم الأموال كل %s أشهر</item>
+        <item quantity="many">يتم خصم الأموال كل %s اشهر</item>
+        <item quantity="other">يتم خصم الأموال كل %s اشهر</item>
+        <item quantity="zero">يتم خصم الأموال كل %s اشهر</item>
+    </plurals>
+    <string name="subscription_description_first_point">الوصول الكامل إلى جميع الدراسات الاستقصائية</string>
+    <string name="subscription_description_second_point">تفسير النتائج والتوصيات الشخصية</string>
+    <string name="subscription_description_third_point">تاريخ وديناميكية النتائج</string>
+    <string name="decline_subscription">يمكنك إلغاء اشتراكك في أي وقت في متجر التطبيقات. بالاشتراك فإنك توافق على\n</string>
+    <string name="decline_subscription_description_first">شروط الاستخدام</string>
+    <string name="decline_subscription_and">و</string>
+    <string name="decline_subscription_description_second">سياسة الخصوصية</string>
+    <string name="subscribe_button">تصميم</string>
+
+    <string name="xml">XML</string>
+    <string name="compose">Compose</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GeometriaTextBold28" parent="@android:style/TextAppearance">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/geometria_bold</item>
+    </style>
+
+    <style name="GeometriaTextBold20" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/geometria_bold</item>
+    </style>
+
+    <style name="GeometriaTextRegular20" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/geometria_normal</item>
+    </style>
+
+    <style name="GeometriaTextRegular16" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/geometria_normal</item>
+    </style>
+
+    <style name="GeometriaTextMedium14" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/geometria_medium</item>
+    </style>
+
+    <style name="GeometriaTextRegular12" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/geometria_normal</item>
+    </style>
+</resources>

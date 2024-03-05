@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Font_scale</string>
+    <string name="label">Subscribe to KLU Mind</string>
+    <string name="label_description">Select a subscription. Funds will be debited immediately after payment confirmation. The next write-off is at the beginning of each new billing period. KLU subscriptions can be managed through the Google Play profile menu.</string>
+    <string name="subscription_price">%s ₽</string>
+    <plurals name="month">
+        <item quantity="one">month</item>
+        <item quantity="other">%s months</item>
+    </plurals>
+    <string name="popular_label">Popular</string>
+    <plurals name="money_withdraw">
+        <item quantity="one">Funds are debited every month</item>
+        <item quantity="other">Funds are debited every %s months</item>
+    </plurals>
+    <string name="subscription_description_first_point">Full access to all surveys</string>
+    <string name="subscription_description_second_point">Interpretation of results, personal recommendations</string>
+    <string name="subscription_description_third_point">History and dynamics of results</string>
+    <string name="decline_subscription">You can cancel your subscription at any time in the app store.\nBy subscribing, you agree to</string>
+    <string name="decline_subscription_description_first">Terms of use</string>
+    <string name="decline_subscription_and">and</string>
+    <string name="decline_subscription_description_second">Privacy Policy</string>
+    <string name="subscribe_button">Subscribe</string>
+
+    <string name="xml">XML</string>
+    <string name="compose">Compose</string>
+</resources>
