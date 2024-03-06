@@ -1,7 +1,5 @@
 package ru.popkov.font_scale_support_app.screens.compose
 
-import android.content.res.Configuration
-import android.os.Build
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -33,7 +31,7 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.tooling.preview.Wallpapers
+import androidx.compose.ui.tooling.preview.PreviewFontScale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -71,7 +69,7 @@ fun ComposeScreen(
                 ) {
                     Icon(
                         painter = painterResource(id = R.drawable.ic_left_arrow),
-                        contentDescription = "App bar nav icon",
+                        contentDescription = "Back button",
                         tint = MaterialTheme.colorScheme.onSurface,
                     )
                 }
@@ -134,7 +132,7 @@ fun ComposeScreen(
             Spacer(modifier = modifier.weight(1f))
 
             CommonButton(
-                modifier = modifier.padding(top = 36.dp),
+                modifier = modifier.padding(vertical = 36.dp),
                 buttonText = stringResource(id = R.string.subscribe_button),
             ) {}
         }
@@ -142,11 +140,7 @@ fun ComposeScreen(
 }
 
 @Preview(showBackground = true)
-@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES)
-@Preview(wallpaper = Wallpapers.GREEN_DOMINATED_EXAMPLE)
-@Preview(apiLevel = Build.VERSION_CODES.R)
-@Preview(apiLevel = Build.VERSION_CODES.P, uiMode = Configuration.UI_MODE_NIGHT_YES)
-@Preview(locale = "ar")
+@PreviewFontScale
 @Composable
 private fun ComposeScreenPreview() {
     RTLSupportAppTheme {

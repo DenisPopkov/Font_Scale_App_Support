@@ -7,8 +7,6 @@ import android.text.style.BulletSpan
 import com.google.android.material.color.MaterialColors
 import ru.popkov.font_scale_support_app.models.SubscriptionType
 
-const val SINGLE_LINE_MAX_LENGTH = 42
-
 fun getSubscriptionAmountByType(subscriptionType: SubscriptionType) = when (subscriptionType) {
     SubscriptionType.MONTH -> 1
     else -> 12
