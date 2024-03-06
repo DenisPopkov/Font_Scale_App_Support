@@ -1,6 +1,4 @@
-# Пример реализации поддержки font scale в XML и Compose
-
-## Screenshots
+# Пример реализации поддержки font scale в Compose
 
 ## Who to contact with questions
 
