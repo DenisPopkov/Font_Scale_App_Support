@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Font_scale</string>
-    <string name="label">Subscribe to KLU Mind</string>
-    <string name="label_description">Select a subscription. Funds will be debited immediately after payment confirmation. The next write-off is at the beginning of each new billing period. KLU subscriptions can be managed through the Google Play profile menu.</string>
+    <string name="label">Subscribe to LOGO Mind</string>
+    <string name="label_description">Select a subscription. Funds will be debited immediately after payment confirmation. The next write-off is at the beginning of each new billing period. LOGO subscriptions can be managed through the Google Play profile menu.</string>
     <string name="subscription_price">%s ₽</string>
     <plurals name="month">
         <item quantity="one">month</item>

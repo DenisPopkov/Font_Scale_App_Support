@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.CircularProgressIndicator
@@ -69,16 +70,17 @@ fun ComposeScreen(
                 ) {
                     Icon(
                         painter = painterResource(id = R.drawable.ic_left_arrow),
-                        contentDescription = "Back button",
+                        contentDescription = "Назад",
                         tint = MaterialTheme.colorScheme.onSurface,
                     )
                 }
                 Image(
                     modifier = modifier
+                        .size(size = 90.dp)
                         .align(Alignment.BottomCenter)
                         .padding(top = 16.dp, bottom = 36.dp),
                     painter = painterResource(id = R.drawable.ic_logo),
-                    contentDescription = "App bar logo",
+                    contentDescription = "Логотип",
                     colorFilter = ColorFilter.tint(MaterialTheme.colorScheme.onSurface),
                 )
             }

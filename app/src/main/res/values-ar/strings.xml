@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Font_scale</string>
-    <string name="label">اشترك في KLU العقل</string>
-    <string name="label_description">حدد التعريفة. سيتم خصم الأموال مباشرة بعد تأكيد الدفع. ويتم الشطب التالي في بداية كل فترة فوترة جديدة. يمكن إدارة اشتراكات KLU من خلال قائمة ملف تعريف متجر التطبيقات.</string>
+    <string name="label">اشترك في LOGO العقل</string>
+    <string name="label_description">حدد التعريفة. سيتم خصم الأموال مباشرة بعد تأكيد الدفع. ويتم الشطب التالي في بداية كل فترة فوترة جديدة. يمكن إدارة اشتراكات LOGO من خلال قائمة ملف تعريف متجر التطبيقات.</string>
     <string name="subscription_price">%s ₽</string>
     <plurals name="month">
         <item quantity="one">شهر</item>

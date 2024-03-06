@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Font_scale</string>
-    <string name="label">Подписка на KLU Mind</string>
-    <string name="label_description">Выберите тариф. Средства спишутся сразу после подтверждения оплаты. Следующее списание — в начале каждого нового расчетного периода. Подписками KLU можно управлять через меню профиля App Store.</string>
+    <string name="label">Подписка на LOGO Mind</string>
+    <string name="label_description">Выберите тариф. Средства спишутся сразу после подтверждения оплаты. Следующее списание — в начале каждого нового расчетного периода. Подписками LOGO можно управлять через меню профиля App Store.</string>
     <string name="subscription_price">%s ₽</string>
     <plurals name="month">
         <item quantity="one" tools:ignore="ImpliedQuantity">месяц</item>

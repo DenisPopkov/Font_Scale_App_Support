@@ -160,7 +160,7 @@ fun RTLSubscriptionCard(
 @Preview(showBackground = true)
 @PreviewFontScale
 @Composable
-private fun RTLSubscriptionCardPreview(
+private fun Preview(
     subscriptionsViewModel: SubscriptionsViewModel = viewModel()
 ) {
     RTLSupportAppTheme {
